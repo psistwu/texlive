@@ -1,0 +1,4 @@
+ARG BASE_IMAGE
+FROM ${BASE_IMAGE}
+WORKDIR /workspace
+CMD umask 0000; bash
